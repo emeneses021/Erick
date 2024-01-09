@@ -1,0 +1,125 @@
+{
+  box-sizing: border-box;
+}
+
+.item {
+  position: relative;
+  float: left;
+  border: 1px solid blue;
+  margin: 10px; 
+}
+
+#menu {
+  border: 1px solid black;
+  overflow: hidden; 
+}
+
+#menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.subitem {
+  border: 1px solid red;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  width: auto;
+  border: 1px solid green; 
+}
+
+.item:hover > .submenu {
+  display: block;
+}
+
+.submenu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.submenu a:hover {
+  background-color: black;
+}
+
+.foto {
+  height: 800px;
+  width: 1500px;
+}
+
+.fotoo {
+  margin-top: 40px;
+}
+
+.info {
+  margin-top: 20px;
+  height: 800px;
+  border: solid black
+}
+
+.info2 {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  margin: 50px;
+  margin-left: 100px; 
+}
+.info3 {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  margin: 50px;
+  margin-left: 100px;
+}
+.info4 {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  margin: 50px;
+  margin-left: 500px;
+  margin-top: -710px;
+}
+.info5 {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  margin: 50px;
+  margin-left: 500px;
+  margin-top: -2px;
+}
+.info6 {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  margin: 50px;
+  margin-left: 900px;
+  margin-top: -710px;
+}
+.info7 {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  margin: 50px;
+  margin-left: 900px;
+  margin-top: -2px;
+}
+.info8 {
+  height: 650px;
+  width: 300px;
+  border: solid black;
+  margin: 50px;
+  margin-left: 1250px;
+  margin-top: -710px;
+}
+
+.titulo {
+text-align: center;
+}
+
+.letra {
+text-align: center;
+}
